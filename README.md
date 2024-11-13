@@ -1,3 +1,18 @@
+# Calendar App
+
+This is a simple calendar app built with React that displays a monthly calendar view. Each date cell shows a status that represents if an employee was on time, late, or absent, along with whether they finished their tasks. Users can click on a date to view details in a modal window.
+
+## Features
+
+- **Calendar View**: Displays days of the current month in a structured grid format.
+- **Date Status**: Each date cell is color-coded based on the employee's work status:
+  - Green: Employee worked and completed tasks on time.
+  - Yellow: Employee worked but did not complete tasks.
+  - Red: Employee was late and did not complete tasks.
+  - Gray: Either the day is a weekend, or the employee did not need to work on that day.
+- **Modal Details**: Clicking on a date opens a modal window that displays detailed information for that day.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
